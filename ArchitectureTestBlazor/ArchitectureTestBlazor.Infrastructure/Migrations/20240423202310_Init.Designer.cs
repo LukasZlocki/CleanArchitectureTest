@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ArchitectureTestBlazor.Infrastructure.Migrations
 {
     [DbContext(typeof(ShopDbContext))]
-    [Migration("20240421155146_Init")]
+    [Migration("20240423202310_Init")]
     partial class Init
     {
         /// <inheritdoc />

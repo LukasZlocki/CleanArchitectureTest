@@ -1,12 +1,12 @@
-.vscode/
+git.vscode/
 .vs/
 
-ArchitectureTestBlazor.Application/obj
-ArchitectureTestBlazor.Application/bin
-ArchitectureTestBlazor.Domain/obj
-ArchitectureTestBlazor.Domain/bin
-ArchitectureTestBlazor.Infrastructure/obj
-ArchitectureTestBlazor.Infrastructure/bin
-ArchitectureTestBlazor.WebUI.Server/obj
-ArchitectureTestBlazor.WebUI.Server/bin
+ArchitectureTestBlazor/ArchitectureTestBlazor.Application/obj
+ArchitectureTestBlazor/ArchitectureTestBlazor.Application/bin
+ArchitectureTestBlazor/ArchitectureTestBlazor.Domain/obj
+ArchitectureTestBlazor/ArchitectureTestBlazor.Domain/bin
+ArchitectureTestBlazor/ArchitectureTestBlazor.Infrastructure/obj
+ArchitectureTestBlazor/ArchitectureTestBlazor.Infrastructure/bin
+ArchitectureTestBlazor/ArchitectureTestBlazor.WebUI.Server/obj
+ArchitectureTestBlazor/ArchitectureTestBlazor.WebUI.Server/bin
 
