@@ -1,0 +1,12 @@
+.vscode/
+.vs/
+
+ArchitectureTestBlazor.Application/obj
+ArchitectureTestBlazor.Application/bin
+ArchitectureTestBlazor.Domain/obj
+ArchitectureTestBlazor.Domain/bin
+ArchitectureTestBlazor.Infrastructure/obj
+ArchitectureTestBlazor.Infrastructure/bin
+ArchitectureTestBlazor.WebUI.Server/obj
+ArchitectureTestBlazor.WebUI.Server/bin
+
