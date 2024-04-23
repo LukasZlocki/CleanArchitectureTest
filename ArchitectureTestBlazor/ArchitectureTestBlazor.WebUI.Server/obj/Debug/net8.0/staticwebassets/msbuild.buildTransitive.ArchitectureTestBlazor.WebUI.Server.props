@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ArchitectureTestBlazor.WebUI.Server.props" />
+</Project>
