@@ -4,6 +4,7 @@ using ArchitectureTestBlazor.Infrastructure;
 using ArchitectureTestBlazor.Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
 using ArchitectureTestBlazor.Infrastructure.Extensions;
+using ArchitectureTestBlazor.Infrastructure.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,11 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
+
+var scope = app.Services.CreateScope();
+
+var seeder = scope.ServiceProvider.GetRequiredService<ShopSeeder>();
+await seeder.Seed();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

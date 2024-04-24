@@ -1,4 +1,5 @@
 ﻿using ArchitectureTestBlazor.Infrastructure.Persistance;
+using ArchitectureTestBlazor.Infrastructure.Seeders;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +17,8 @@ namespace ArchitectureTestBlazor.Infrastructure.Extensions
         {
             services.AddDbContext<ShopDbContext>(options => options.UseSqlServer(
                 configuration.GetConnectionString("ShopConnectionString")));
+
+            services.AddScoped<ShopSeeder>();
         }
     }
 }
